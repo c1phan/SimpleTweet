@@ -26,7 +26,7 @@ import java.util.List;
 
 import okhttp3.Headers;
 
-public abstract class TimelineActivity extends AppCompatActivity {
+public class TimelineActivity extends AppCompatActivity {
 
     public static final String TAG = "TimelineActivity";
     private final int REQUEST_CODE = 20;
