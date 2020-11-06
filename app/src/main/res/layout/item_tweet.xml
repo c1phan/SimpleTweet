@@ -41,4 +41,14 @@
         android:layout_toEndOf="@+id/ivProfileImage"
         android:textColor="#000000"
         tools:text="This is my tweet!!" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:text="@Christi1353" />
 </RelativeLayout>
