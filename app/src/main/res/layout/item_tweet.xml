@@ -5,7 +5,8 @@
     android:id="@+id/RelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="1dp"
+    android:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -26,6 +27,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#000000"
+        android:textStyle="bold"
         tools:text="c06phan" />
 
     <TextView
@@ -36,5 +39,6 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#000000"
         tools:text="This is my tweet!!" />
 </RelativeLayout>
